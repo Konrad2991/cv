@@ -1,0 +1,200 @@
+/* main rules */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, strong {
+    color: #303030;
+    font-family: 'Katibeh', cursive;
+    font-weight: 500;
+}
+
+strong {
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 14px;
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* auxiliary colors */ 
+
+.exp {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: lime;
+}
+
+/* box sizing */ 
+
+.profile {
+    background: rgb(186,172,172);
+    background: linear-gradient(90deg, rgba(186,172,172,0.46589057986475846) 0%, rgba(235,230,230,1) 70%);
+    height: 80em;
+    width: 35%;
+    float: left;
+    padding: 1.5em;
+    justify-content: center;
+    text-align: center;
+}
+
+.exp {
+    height: 80em;
+    width: 65%;
+    float: right;
+    padding: 3em;
+}
+
+.picture {
+    height: 10em;
+    width: 10em;
+    text-align: center;
+    margin: auto;
+    margin-top: 3em;
+}
+
+footer {
+    height: 3rem;
+    width: 100%;
+    clear: both;
+    position: relative;
+    margin-top: -200px;
+    display: table;   
+}
+
+.footer-wrapper {
+    background-color: #303030;
+    display: table-cell;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footer-wrapper p {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-wrapper a {
+    text-decoration: none;
+    color: #d68400;
+}
+
+/* img style */ 
+
+.picture img {
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: grey;
+}
+
+img:hover {
+    transition: ease-in-out .5s;
+    transform: scale(1.1);    
+}
+
+/* links */ 
+
+.links {
+    display: inline-block;
+    padding-top: 2em;
+}
+
+.social-icon {
+    font-size: 36px;
+    padding: .5rem;
+    color: black;
+}
+
+.social-icon:hover {
+    transition: ease-in-out .3s;
+    color: lightslategray;
+}
+
+/* main style */ 
+
+.map-marker {
+    color: red;
+}
+
+.map-marker:hover {
+    color: black;
+    transition: ease-in-out .5s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.about h1 {
+    padding: .5rem;
+    line-height: 1.5rem;
+}
+
+.about h2 {
+    padding: .5rem;
+    line-height: 1.5rem;
+}
+
+.about h3 {
+    padding: .3rem;
+    line-height: 1.5rem;
+}
+
+.about p {
+    padding: .5rem;
+    text-align: justify;
+}
+
+.exp h2 {
+    padding: .7rem;
+}
+
+.exp li {
+    padding: .3rem;
+}
+
+/* media */ 
+
+@media (max-width: 862px) {
+    .profile {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .about {
+        margin: 0 25% 0 25%;
+    }
+
+    .exp {
+        width: 100%;
+        height: auto;
+    }
+}
