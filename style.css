@@ -9,11 +9,11 @@
 h1, h2, h3, h4, strong {
     color: #303030;
     font-family: 'Katibeh', cursive;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 strong {
-    font-weight: 900;
+    font-weight: 600;
 }
 
 h1 {
@@ -137,6 +137,17 @@ img:hover {
     color: lightslategray;
 }
 
+/* date */ 
+
+#date {
+    height: 2em;
+    width: auto;
+    position: absolute;
+    padding: .5em;
+    font-size: 28px;
+    font-family: 'Katibeh', cursive;
+}
+
 /* main style */ 
 
 .map-marker {
@@ -163,7 +174,8 @@ ul {
 }
 
 .about h3 {
-    padding: .3rem;
+    padding: .5rem;
+    padding-top: 1.5rem;
     line-height: 1.5rem;
 }
 
